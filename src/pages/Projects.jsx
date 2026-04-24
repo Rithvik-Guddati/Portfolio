@@ -8,7 +8,7 @@ function Projects() {
         "Built a predictive system using classification and regression models to estimate system failure risk.",
       tech: ["Python", "ML", "Regression"],
       link: "#",
-      image: "/images/project1.jpg",
+      image: "images/project1.jpg",
     },
     {
       title: "Image Denoising",
@@ -16,7 +16,7 @@ function Projects() {
         "Implemented trainable nonlinear reaction diffusion for high-quality image restoration.",
       tech: ["Python", "Computer Vision"],
       link: "#",
-      image: "/images/project2.jpg",
+      image: "images/project2.jpg",
     },
   ];
 

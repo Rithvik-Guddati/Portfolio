@@ -22,3 +22,5 @@ function ProjectCard({ title, description, tech, link, image }) {
     </div>
   );
 }
+
+export default ProjectCard;
