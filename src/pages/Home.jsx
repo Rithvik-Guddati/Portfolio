@@ -16,7 +16,7 @@ function Home() {
       </div>
 
       <div className="hero-image">
-        <img src="/images/cat_profile.jpg" alt="profile" />
+        <img src="images/cat_profile.jpg" alt="profile" />
       </div>
     </section>
   );
