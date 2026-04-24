@@ -11,12 +11,20 @@ function Home() {
 
         <div className="hero-buttons">
           <a href="#projects" className="btn primary">View Projects</a>
-          <a href="/resume.pdf" className="btn secondary">Download Resume</a>
+          <a 
+            href={`${import.meta.env.BASE_URL}resume.pdf`} 
+            className="btn secondary"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
 
       <div className="hero-image">
-        <img src="images/cat_profile.jpg" alt="profile" />
+        <img 
+          src={`${import.meta.env.BASE_URL}images/cat_profile.jpg`} 
+          alt="profile" 
+        />
       </div>
     </section>
   );
