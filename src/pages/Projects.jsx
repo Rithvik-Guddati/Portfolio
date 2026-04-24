@@ -8,13 +8,19 @@ function Projects() {
       <div className="grid">
         <ProjectCard
           title="Failure Risk Prediction"
-          description="ML model to predict system failure using classification and regression."
+          description="Predictive ML system using classification and regression models to estimate failure risk."
           link="#"
         />
 
         <ProjectCard
-          title="Image Denoising Model"
-          description="Implemented nonlinear reaction diffusion for image denoising."
+          title="Image Denoising"
+          description="Implemented trainable nonlinear reaction diffusion for high-quality image restoration."
+          link="#"
+        />
+
+        <ProjectCard
+          title="Data Analysis Dashboard"
+          description="Interactive dashboard for analyzing datasets and extracting insights."
           link="#"
         />
       </div>
