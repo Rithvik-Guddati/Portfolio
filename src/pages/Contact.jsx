@@ -2,8 +2,17 @@ function Contact() {
   return (
     <section id="contact" className="section">
       <h2>Contact</h2>
-      <p>Email: your-email@example.com</p>
-      <p>GitHub: https://github.com/your-username</p>
+      <p>Email: grithvik.2005@gmail.com</p>
+        <p>
+        GitHub:{" "}
+        <a
+            href="https://github.com/Rithvik-Guddati"
+            target="_blank"
+            rel="noreferrer"
+        >
+            View my GitHub →
+        </a>
+        </p>
     </section>
   );
 }
