@@ -22,7 +22,7 @@ function Home() {
 
       <div className="hero-image">
         <img 
-          src={`${import.meta.env.BASE_URL}images/cat_profile.jpg`} 
+          src={`${import.meta.env.BASE_URL}images/profile1.jpg`} 
           alt="profile" 
         />
       </div>
